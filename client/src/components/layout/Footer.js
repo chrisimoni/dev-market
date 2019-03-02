@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export default function Footer() {
+export default () => {
   return (
-    <div>
-      <footer className="bg-dark text-white mt-5 p-4 text-center">
-        Copyright &copy; { new Date().getFullYear() } DevMarket
-      </footer>
-    </div>
-  )
-}
+    <footer className="bg-dark text-white mt-5 p-4 text-center">
+      Copyright &copy; {new Date().getFullYear()} DevConnector
+    </footer>
+  );
+};
